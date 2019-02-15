@@ -1,2 +1,5 @@
-variable "KEY_NAME" {
+variable "KEY_NAME" {}
+
+variable "SEC_GROUP" {
+  type = "list"
 }
